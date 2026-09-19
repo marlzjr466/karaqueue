@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-stage-950 font-sans text-white antialiased;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-display tracking-tight;
+}
+
+/*
+ * Typography note: font-display currently falls back to the system font
+ * stack because this environment can't fetch Google Fonts at build time
+ * (no network access to fonts.googleapis.com). Swap in a distinctive
+ * display face via next/font/local (self-hosted font files) or
+ * next/font/google once the app has internet access at build time —
+ * update the fontFamily.display value in tailwind.config.ts accordingly.
+ */

@@ -1,0 +1,2 @@
+-- Seed data will be added in Phase 1 (subscription plan rows: free, premium).
+-- Intentionally left empty in Phase 0.

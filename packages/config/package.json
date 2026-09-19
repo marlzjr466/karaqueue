@@ -1,0 +1,19 @@
+{
+  "name": "@karaoke-queue/config",
+  "version": "0.1.0",
+  "private": true,
+  "main": "eslint-base.js",
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "react-native.json",
+    "eslint-base.js"
+  ],
+  "exports": {
+    ".": "./eslint-base.js",
+    "./base.json": "./base.json",
+    "./nextjs.json": "./nextjs.json",
+    "./react-native.json": "./react-native.json",
+    "./eslint-base.js": "./eslint-base.js"
+  }
+}

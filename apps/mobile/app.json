@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "KaraQueue",
+    "slug": "karaoke-queue",
+    "scheme": "karaokequeue",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "icon": "./assets/icon.png",
+    "splash": {
+      "backgroundColor": "#05030a"
+    },
+    "android": {
+      "package": "com.karaokequeue.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#05030a"
+      }
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
